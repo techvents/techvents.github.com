@@ -1,0 +1,55 @@
+body {
+  font-family: verdana;
+  font-size: 14px;
+  padding: 10px 35px;
+}
+
+
+a {
+  color: #A00;
+}
+a:hover {
+  color: #F00;
+}
+
+div.event {
+  margin: 15px 30px;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+div.event h2 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 18px;
+}
+div.event em {
+  font-size: 15px;
+  color: #999;
+  padding-left: 20px;
+  font-style: normal;
+}
+
+div.event ul.links {
+  margin: 0; padding: 0;
+  font-size: 12px;
+}
+div.event ul.links li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form small {
+  display: block;
+  font-size: 12px;
+}
+form .warning {
+  color: #600;
+  font-weight: bold;
+}
